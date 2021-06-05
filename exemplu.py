@@ -11,3 +11,4 @@ for i in tqdm(range(0,3)):
         for k in tqdm(range(0,3)):
             if(i!=j&j!=k&k!=i):
                 print(d[i],d[j],d[k])
+.
