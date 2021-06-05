@@ -31,7 +31,7 @@ def open_pdf():
         text = text_box.get(1.0, END)
         tts = gTTS(text, lang='en')
         tts.save("audio.mp3")
-.
+
 
 text_box = Text(window, height=30, width=60)
 text_box.pack(pady=10)
